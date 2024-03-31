@@ -1,4 +1,4 @@
-import { isRef, Ref, ref } from 'vue'
+import { isRef, Ref, ref } from 'vue-demi'
 import type { PropsImgs } from '../types'
 
 export interface UseEasyLightboxOptions {

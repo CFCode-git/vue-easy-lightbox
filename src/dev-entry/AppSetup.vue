@@ -25,7 +25,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, isReactive, ref } from 'vue'
+import { defineComponent, isReactive, ref } from 'vue-demi'
 import { useEasyLightbox } from '../composables'
 import VueEasyLightbox from '../index'
 

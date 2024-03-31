@@ -1,4 +1,4 @@
-import type { TeleportProps, PropType } from 'vue'
+import type { TeleportProps, PropType } from 'vue-demi'
 import type { Img, IImgWrapperState, PropsImgs } from './types'
 
 import {
@@ -13,7 +13,7 @@ import {
   Transition,
   withModifiers,
   Teleport
-} from 'vue'
+} from 'vue-demi'
 
 import { SvgIcon } from './components/svg-icon'
 import { Toolbar } from './components/toolbar'

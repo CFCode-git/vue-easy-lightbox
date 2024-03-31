@@ -1,6 +1,6 @@
 import './styles/index'
 
-import type { App } from 'vue'
+import type { App } from 'vue-demi'
 import _VueEasyLightbox from './vue-easy-lightbox'
 import { useEasyLightbox } from './composables'
 

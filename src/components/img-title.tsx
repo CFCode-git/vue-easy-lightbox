@@ -1,7 +1,10 @@
 import { prefixCls } from '../constant'
-import { SetupContext } from 'vue'
+import { SetupContext } from 'vue-demi'
 
-export const ImgTitle = (props: Record<string, unknown>, { slots }: SetupContext) => (
+export const ImgTitle = (
+  props: Record<string, unknown>,
+  { slots }: SetupContext
+) => (
   <div class={`${prefixCls}-img-title`}>
     {slots.default ? slots.default() : ''}
   </div>

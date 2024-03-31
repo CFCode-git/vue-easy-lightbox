@@ -6,6 +6,9 @@ import { resolve } from 'path'
 
 export default defineConfig(() => {
   return {
+    optimizeDeps:{
+      exclude: ['vue-demi']
+    },
     server: {
       port: 8888
     },

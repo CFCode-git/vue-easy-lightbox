@@ -1,5 +1,5 @@
 import { prefixCls } from '../constant'
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue-demi'
 
 export const SvgIcon = defineComponent({
   name: 'SvgIcon',
@@ -11,7 +11,10 @@ export const SvgIcon = defineComponent({
   },
   setup(props) {
     return () => (
-      <svg class={`${prefixCls}-icon icon`} aria-hidden="true">
+      <svg
+        class={`${prefixCls}-icon icon`}
+        aria-hidden="true"
+      >
         <use xlinkHref={`#icon-${props.type}`}></use>
       </svg>
     )

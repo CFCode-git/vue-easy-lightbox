@@ -1,4 +1,4 @@
-import { reactive, ref } from 'vue'
+import { reactive, ref } from 'vue-demi'
 import { IImgState, IImgWrapperState, IStatus } from '../types'
 import { cancelRaf, raf } from './raf'
 

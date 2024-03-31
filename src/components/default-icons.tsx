@@ -1,4 +1,4 @@
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue-demi'
 
 export const DefaultIcons = defineComponent({
   name: 'DefaultIcons',

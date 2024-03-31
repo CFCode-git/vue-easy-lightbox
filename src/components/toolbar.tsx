@@ -1,4 +1,4 @@
-import { defineComponent, PropType } from 'vue'
+import { defineComponent, PropType } from 'vue-demi'
 import { prefixCls } from '../constant'
 import { voidFn } from '../utils'
 import { MouseEventHandler } from '../types'

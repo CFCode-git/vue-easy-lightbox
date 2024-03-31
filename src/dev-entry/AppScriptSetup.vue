@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts" setup>
-import { isReactive, ref } from 'vue'
+import { isReactive, ref } from 'vue-demi'
 import { useEasyLightbox } from '../composables'
 
 const imgList = ref([
